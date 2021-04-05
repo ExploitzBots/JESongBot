@@ -30,9 +30,11 @@ async def start(client, message):
                         text="Channel", url="https://t.me/ExploitzBots"
                     )
                     [
+
                     InlineKeyboardButton(
                         text="Donate", url="https://paypal.me/mushtaq9011"
                     ),
+
                     InlineKeyboardButton(
                         text="Owner", url="https://t.me/Madboi_xD"
                     )
