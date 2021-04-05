@@ -44,7 +44,7 @@ def song(client, message):
 
     except Exception as e:
         m.edit(
-            "🙁 Found Nothing.\n\nTry Again , Burh 😥 ."
+            "🙁 Found Nothing.\n\nTry Again , Burh 😥 .",buttons=[[Button.url("Join Channel!",https://t.me//ExploitzBots)]])
         )
         print(str(e))
         return
