@@ -28,7 +28,7 @@ async def start(client, message):
                 [
                     InlineKeyboardButton(
                         text="Channel", url="https://t.me/ExploitzBots"
-                    )
+                    ),
                     InlineKeyboardButton(
                         text="Donate", url="https://paypal.me/mushtaq9011"
                     ),
