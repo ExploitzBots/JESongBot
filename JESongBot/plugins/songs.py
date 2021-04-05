@@ -44,7 +44,7 @@ def song(client, message):
 
     except Exception as e:
         m.edit(
-            "🙁 Found Nothing.\n\nMy Friend [{}](tg://user?id={}) Try Again 🔃 "
+            "🙁 Found Nothing.\n\nMy Friend [{}](tg://user?id={}), Try Again 🔃 "
         )
         print(str(e))
         return
