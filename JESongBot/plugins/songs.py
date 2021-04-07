@@ -45,7 +45,7 @@ def song(client, message):
     except Exception as e:
         m.edit(
             "🙁 Found Nothing.\n\nMy Friend [{}](tg://user?id={}), Try Again 🔃 "
-        )
+        ).format(message.from_user.mention)
         print(str(e))
         return
     m.edit("Downloading the song by @ExSongs_Bot...")
